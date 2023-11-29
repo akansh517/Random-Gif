@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect,useState } from 'react';
 import axios from 'axios';
 const API_KEY='2w1xX6FOr95ZoGlKsQVbVQEk3IHMCbms';
+
 // const randomMemeUrl = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
 // const tagMemeUrl = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}&tag=${tag}`;
 const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
